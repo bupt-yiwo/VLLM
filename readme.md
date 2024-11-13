@@ -9,6 +9,5 @@ No need to star this project; it is solely for documenting my own learning journ
 - [x] Building VLLM from scratch
 - [ ] Medical DICOM File Cleaning Pipeline
 - [ ] Train Qwen-2VL as you wish
-- [ ] Train Qwen-2VL as you wish
 - [ ] Build, train, and extend VLLM based on any base model
 
