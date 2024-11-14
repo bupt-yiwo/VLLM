@@ -7,7 +7,7 @@ No need to star this project; it is solely for documenting my own learning journ
 ##  Coming Soon
 
 - [x] Building VLLM from scratch
-- [ ] Medical DICOM File Cleaning Pipeline
+- [x] Medical DICOM File Cleaning Pipeline
 - [ ] Train Qwen-2VL as you wish
 - [ ] Build, train, and extend VLLM based on any base model
 - [ ] Common Transformers Source Code Analysis
