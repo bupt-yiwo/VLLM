@@ -11,5 +11,6 @@ No need to star this project; it is solely for documenting my own learning journ
 - [x] VQA Score
 - [ ] Two implementations for training Qwen2-VL
 - [ ] Build, train, and extend VLLM based on any base model
+- [ ] Code implementation of various huggingface tools
 - [ ] Common Transformers Source Code Analysis
 
