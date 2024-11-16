@@ -1,3 +1,3 @@
-zh：Chinese version
+zh: Chinese version
 
 en: English version
