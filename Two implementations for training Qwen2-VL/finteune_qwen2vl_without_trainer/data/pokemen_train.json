@@ -1,0 +1,3602 @@
+[
+    {
+        "id": 90,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/90.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a pink cartoon character with big eyes"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/7.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a picture of a cartoon character with a sword"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/65.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a pink cat flying through the air"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/54.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a blue and white bird with its wings spread"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/50.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a cartoon character holding a knife"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/68.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a dinosaur in a dress"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/14.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a gray and black dragon"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/52.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a dragon with its mouth open"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/42.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a blue and yellow dragon"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/53.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a blue and white stuffed animal sitting on top of a white surface"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/25.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a star with a red eye"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/0.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a green pokemon with red eyes"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/87.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a cartoon blue fish with a yellow fin"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/83.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a red and yellow insect"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/82.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a green and yellow spider with its tongue out"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/79.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of an owl with a crown on its head"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/58.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a blue and white snake with horns on its head"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/49.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a picture of a mushroom with pink eyes"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/56.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a yellow bird flying through the air"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/93.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a green bird with a red tail and a black nose"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/86.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a blue fish with yellow eyes"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/10.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a picture of a pink and yellow pokemon figure"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/35.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a red fish with a gold crown on its head"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/73.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a blue and yellow pokemon"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/22.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a fish with a horn on it's head"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/78.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a cartoon character with big eyes and a big nose"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/69.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a cartoon bird with a hat on its head"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/11.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a purple ball with a skull and cross bones on it"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/28.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a green and white cartoon character with a sword"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/40.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a cartoon character with a smile on his face"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/55.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a yellow and black pokemon pokemon character"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/80.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a very cute looking cartoon character with big eyes"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/15.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a gray and yellow pokemon"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/85.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a cartoon bird with a bandanna on its head"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/75.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a blue and yellow pokemon"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/59.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a dragon sitting on its hind legs"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/60.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a yellow and black insect with large wings"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/16.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a pink bird sitting on top of a white surface"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/43.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a yellow and white pikachu"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/2.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a red and white ball with an angry look on its face"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/91.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a pokemon pikachu in a bowl"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/19.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a cartoon picture of a bear holding a baseball bat"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/99.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a yellow and white pokemon pokemon character"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/37.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a blue and yellow dragon flying through the air"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/76.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a brown and black animal with a white background"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/38.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a blue and white dragon with its mouth open"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/9.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a girl with a boxing glove"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/5.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a cartoon character with a potted plant on his head"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/81.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a red and yellow insect flying through the air"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/36.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a very cute looking caterpillar"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/96.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a colorful bird flying through the air"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/32.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a cartoon character with wings"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/21.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a blue and yellow dragon"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/63.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a cat with a pink tail"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/66.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a pikachu with a green leaf on its head"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/34.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a bison with horns and horns"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/26.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a star with a jewel in the center"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/46.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "an image of an animal with big eyes"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/72.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a cartoon dinosaur with its mouth open"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/62.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a cartoon character with a pink and white outfit"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/64.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a cartoon character with a cat like body"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/70.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a very cute looking pokemon sitting on top of a rock"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/48.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a yellow creature with a black nose"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/31.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a very cute looking pokemon character"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/17.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a blue and black object with two eyes"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/13.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "an image of a cartoon character flying through the air"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/51.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a dragon with its mouth open"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/88.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a cartoon pikachu with big eyes and big ears"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/92.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a white pokemon with a red and blue tail"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/77.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a very cute looking animal with big eyes"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/41.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a very cute looking pokemon with big eyes"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/67.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a yellow and green pokemon"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/27.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a cartoon character with a big smile on his face"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/3.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a cartoon ball with a smile on it's face"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/1.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a green and yellow toy with a red nose"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/95.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a drawing of a sheep with a bell on its head"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/45.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "an origami dog with a pink and blue body"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/57.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a blue and white bird with a long tail"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/18.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a couple of pokemon standing next to each other"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen/24.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "What does this image depict?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "a cartoon butterfly with a sad look on its face"
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Who is his owner?"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Pok\u00e9mon Master"
+                    }
+                ]
+            }
+        ]
+    }
+]
