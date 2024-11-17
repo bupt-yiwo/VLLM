@@ -7,3 +7,10 @@
 **METEOR (Metric for Evaluation of Translation with Explicit ORdering)**: This metric considers word variations, synonyms, etc., and focuses more on word order and semantic correlation compared to BLEU. It is widely used for evaluating translations and text generation.
 
 **SPICE (Semantic Propositional Image Captioning Evaluation)**: Primarily used for evaluating image caption generation, it measures semantic matching between generated and reference texts. SPICE parses text using graph structures and emphasizes the semantic content of the generated text.
+
+
+In addition to the metrics mentioned earlier, CIDEr and CIDEr-D can sometimes also be used to evaluate the quality of text generation. However, they can have limitations in cases with a single reference answer or a single generated response.
+
+**CIDEr (Consensus-based Image Description Evaluation)**: This metric is primarily used for image captioning tasks, evaluating the quality of generated descriptions by comparing them with reference descriptions. CIDEr utilizes a weighted TF-IDF representation of n-grams and measures the semantic similarity between generated and reference descriptions. This approach better captures the actual meaning of the text by accounting for different expressions that convey the same semantic content. By comparing with multiple reference sentences, it enhances the evaluation of description diversity and coverage.
+
+**CIDEr-D**: CIDEr-D is an improved version of CIDEr that focuses on enhancing diversity and reducing repetition in generated descriptions. By penalizing repeated n-grams, CIDEr-D discourages excessive generation of simple phrases or word repetitions, thus encouraging more informative and diverse content. Additionally, CIDEr-D includes smoothing to increase robustness, making it more stable when handling low-frequency or unseen n-grams.
