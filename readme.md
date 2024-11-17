@@ -1,6 +1,6 @@
 # VLLM-Playground
 
-No need to star this project; it is solely for documenting my own learning journey. However, it is also well-suited for beginners to learn VLLM. I have provided annotations for all the code.
+This project is solely for documenting my own learning journey. However, it is also well-suited for beginners to learn VLLM. I have provided annotations for all the code.
 
 
 
