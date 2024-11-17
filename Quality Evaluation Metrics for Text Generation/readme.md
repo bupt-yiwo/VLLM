@@ -2,4 +2,4 @@ zh: Chinese version
 
 en: English version
 
-After organizing the code, I discovered that the Hugging Face Evaluate library can also be used to implement the evaluation of these metrics.
+After organizing the code, I found that using Hugging Face's Evaluate library can also achieve the evaluation of these metrics.
