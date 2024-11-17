@@ -25,8 +25,8 @@ from tqdm.auto import tqdm
 parser = argparse.ArgumentParser()
 parser.add_argument('--model_dir', type=str, default="/home/zhuyao/Sunpeng/models/qwen_2B_instruct",required=False, help='Pretrained model directory')
 parser.add_argument('--output_dir', type=str, default="/home/zhuyao/Sunpeng/finteune_qwen2vl_no_trainer/result",required=False, help='Pretrained model directory')
-parser.add_argument('--min_resolution', type=int, default=336,required=False, help='min_resolution(of a photo)')
-parser.add_argument('--max_resolution', type=int, default=336,required=False, help='max_resolution(of a photo)')
+parser.add_argument('--min_tokens', type=int, default=336,required=False, help='min_tokens(of a photo)')
+parser.add_argument('--max_tokens', type=int, default=336,required=False, help='max_tokens(of a photo)')
 parser.add_argument('--train_data_path', type=str, default="/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen_train.json",required=False, help='Training data file path')
 parser.add_argument('--eval_data_path', type=str, default="/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen_eval.json",required=False, help='Eval data file path')
 parser.add_argument('--num_train_epochs', type=int, default=3,required=False, help='num_train_epochs')
@@ -166,8 +166,8 @@ model = Qwen2VLForConditionalGeneration.from_pretrained(
     )
 processor = AutoProcessor.from_pretrained(
         args.model_dir,
-        min_pixels=args.min_resolution * 28 * 28,
-        max_pixels=args.max_resolution * 28 * 28,
+        min_pixels=args.min_tokens * 28 * 28,
+        max_pixels=args.max_tokens * 28 * 28,
     )
 processor.chat_template = processor.chat_template.replace("You are a helpful assistant.",args.system_message)
 
