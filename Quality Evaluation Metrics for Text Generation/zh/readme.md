@@ -4,7 +4,7 @@
 4. **METEOR (Metric for Evaluation of Translation with Explicit ORdering)**：一种文本评价指标，考虑了词形变化、同义词匹配等因素。相比BLEU，METEOR更注重单词顺序和语义相关性，常用于机器翻译和文本生成的评估。
 5. **SPICE (Semantic Propositional Image Captioning Evaluation)**：主要用于图像描述生成任务，评估生成文本在语义层面上与参考文本的匹配程度。SPICE基于图形结构对文本进行解析，重视生成文本的语义内容。
 
-除了上面的几个指标，CIDEr和CIDEr-D有时也可以用来评估，但是在单参考答案和单答案的情况下有时候局限性比较大。
+除了上面的几个指标，CIDEr和CIDEr-D有时也可以用来评估文本生成质量，但是在单参考答案和单答案的情况下有时局限性比较大。
 
 6. **CIDEr (Consensus-based Image Description Evaluation)**：主要用于图像描述生成任务，通过比较生成描述与参考描述之间的相似性来评价生成质量。CIDEr利用n元语法的加权TF-IDF向量表示，计算生成描述与参考描述之间的语义相似性，以更好地反映文本的实际含义。它能够处理生成描述与参考描述之间存在不同表达形式但语义相似的情况，通过多参考句对比提升对描述多样性和覆盖度的评价。
 7. **CIDEr-D**：CIDEr-D 是对CIDEr的改进版本，着重提高生成描述的多样性并减少重复。通过对重复的n元语法进行惩罚，CIDEr-D避免了过多的简单词组或短语重复生成，从而鼓励生成更为丰富的信息内容。此外，CIDEr-D也包含平滑处理以提高评价的鲁棒性，使得在处理低频或未见的n元语法时更加稳定。
