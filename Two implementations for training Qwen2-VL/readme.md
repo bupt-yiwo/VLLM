@@ -22,6 +22,16 @@ Then, start the training process:
 sh run.sh
 ```
 
+If you find errors, rewrite the code this way：
+
+```python
+#/home/xx/anaconda3/envs/qwen2vl/lib/python3.10/site-packages/transformers/trainer_utils.py
+    def __call__(self, features: List[dict]):
+        # features = [self._remove_columns(feature) for feature in features]
+        return self.data_collator(features)
+
+```
+
 To visualize training progress and curve changes:
 
 ```python
