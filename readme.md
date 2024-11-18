@@ -6,7 +6,7 @@ This project is solely for documenting my own learning journey. However, it is a
 
 ##  Coming Soon
 
-- [x] Building VLLM from scratch
+- [x] Building VLLM from scratch(paligemma)
 - [x] Medical DICOM File Cleaning Pipeline
 - [x] VQA Score
 - [x] Two implementations for training Qwen2-VL
