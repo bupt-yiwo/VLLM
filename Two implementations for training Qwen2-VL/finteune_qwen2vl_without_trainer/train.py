@@ -214,10 +214,10 @@ for epoch in range(num_epochs):
         # print(len(train_dataloader))
         # batch = {k: v.to(device) for k, v in batch.items()}
         outputs = model(**batch)
-        loss = outputs.loss
+        loss = outputs.loss / args.gradient_accumulation_steps  
         accelerator.backward(loss)
         # loss.backward()
-        running_loss += loss.item()
+        running_loss += loss.item() * args.gradient_accumulation_steps  
         if (step + 1) % args.gradient_accumulation_steps == 0 or (step + 1) == len(train_dataloader):
             optimizer.step()
             lr_scheduler.step()
