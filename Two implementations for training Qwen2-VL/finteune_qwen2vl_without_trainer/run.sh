@@ -2,8 +2,8 @@
 CUDA_VISIBLE_DEVICES=6,7 accelerate launch /home/zhuyao/Sunpeng/finteune_qwen2vl_no_trainer/train.py \
     --model_dir "/home/zhuyao/Sunpeng/models/qwen_2B_instruct" \
     --output_dir "/home/zhuyao/Sunpeng/finteune_qwen2vl_no_trainer/result" \
-    --min_tokens 336 \
-    --max_tokens 336 \
+    --min_image_tokens 336 \
+    --max_image_tokens 336 \
     --train_data_path "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen_train.json" \
     --eval_data_path "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen_eval.json" \
     --num_train_epochs 3 \
