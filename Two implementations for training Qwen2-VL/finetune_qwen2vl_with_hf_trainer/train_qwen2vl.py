@@ -30,8 +30,8 @@ parser.add_argument('--finetune_choice', type=str, choices=['use_lora','full_fin
 parser.add_argument('--lora_modules', type=str, nargs='+', default=["qkv", "fc1", "fc2", "mlp.0", "mlp.2"], required=False, help='The modules you want to lora finetune')
 parser.add_argument('--lora_rank', type=int, default=128,required=False, help='lora_rank')
 parser.add_argument('--lora_alpha', type=int, default=256,required=False, help='double_lora_rank')
-parser.add_argument('--max_tokens', type=int, default=256,required=False, help='max_tokens(of a photo)')
-parser.add_argument('--min_tokens', type=int, default=512,required=False, help='min_tokens(of a photo)')
+parser.add_argument('--max_image_tokens', type=int, default=256,required=False, help='max_image_tokens(of a photo)')
+parser.add_argument('--min_image_tokens', type=int, default=512,required=False, help='min_image_tokens(of a photo)')
 parser.add_argument('--per_device_train_batch_size', type=int, default=1,required=False, help='per_device_train_batch_size')
 parser.add_argument('--num_train_epochs', type=int, default=3,required=False, help='per_device_train_batch_size')
 parser.add_argument('--logging_steps', type=int, default=20,required=False, help='logging_steps')
@@ -224,8 +224,8 @@ def train():
 
     processor = AutoProcessor.from_pretrained(
         args.model_dir,
-        min_pixels=args.min_tokens * 28 * 28,
-        max_pixels=args.max_tokens * 28 * 28,
+        min_pixels=args.min_image_tokens * 28 * 28,
+        max_pixels=args.max_image_tokens * 28 * 28,
     )
     processor.chat_template = processor.chat_template.replace("You are a helpful assistant.",args.system_message)
     
