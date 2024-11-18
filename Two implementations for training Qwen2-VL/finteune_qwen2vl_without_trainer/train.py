@@ -203,7 +203,8 @@ train_dataloader, eval_dataloader, model, optimizer = accelerator.prepare(
  )
 
 
-progress_bar = tqdm(range(int(num_training_steps// (args.gpu_nums * args.gradient_accumulation_steps))))
+gradient_accumulation_steps = args.gradient_accumulation_steps  
+progress_bar = tqdm(range(int(num_training_steps// (args.gpu_nums * gradient_accumulation_steps))))
 running_loss = 0.0
 log_steps = args.log_steps
 save_steps = args.save_steps
@@ -214,11 +215,11 @@ for epoch in range(num_epochs):
         # print(len(train_dataloader))
         # batch = {k: v.to(device) for k, v in batch.items()}
         outputs = model(**batch)
-        loss = outputs.loss / args.gradient_accumulation_steps  
+        loss = outputs.loss / gradient_accumulation_steps
         accelerator.backward(loss)
         # loss.backward()
-        running_loss += loss.item() * args.gradient_accumulation_steps  
-        if (step + 1) % args.gradient_accumulation_steps == 0 or (step + 1) == len(train_dataloader):
+        running_loss += loss.item() * gradient_accumulation_steps
+        if (step + 1) % gradient_accumulation_steps == 0 or (step + 1) == len(train_dataloader):
             optimizer.step()
             lr_scheduler.step()
             optimizer.zero_grad()
