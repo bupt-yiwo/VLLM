@@ -9,8 +9,8 @@ torchrun --nproc-per-node=2 /home/zhuyao/Sunpeng/finetune_qwen2vl/train_qwen2vl.
   --lora_modules "q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj" \
   --lora_rank 4  \
   --lora_alpha 8 \
-  --max_tokens 336 \
-  --min_tokens 336 \
+  --max_image_tokens 336 \
+  --min_image_tokens 336 \
   --per_device_train_batch_size 1 \
   --per_device_eval_batch_size 1 \
   --num_train_epochs 1 \
