@@ -1,4 +1,4 @@
-# VLLM-Playground
+# VLLM
 
 This repository is solely for documenting my own learning journey. However, it is also well-suited for beginners to learn VLLM. I have provided annotations for all the code.
 
