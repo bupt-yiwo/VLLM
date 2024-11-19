@@ -1,4 +1,6 @@
-I have combined the Qwen2VL visual encoder (650M) with the Llama3.2 (1B) language model to create a Vision-Language Language Model (VLLM). This work involves:
+I have combined the Qwen2VL visual encoder (650M) with the Llama3.2 (1B) language model to create a VLLM.
+
+### Coming Soon
 
 - Pre-training
 - Downstream fine-tuning (including full fine-tuning and LoRA fine-tuning)
@@ -9,4 +11,3 @@ I have combined the Qwen2VL visual encoder (650M) with the Llama3.2 (1B) languag
 - Quantization
 
 After completing all the work, I will refactor the code and add detailed comments.
-
