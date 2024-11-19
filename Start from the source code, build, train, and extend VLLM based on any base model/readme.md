@@ -7,6 +7,5 @@ I have currently combined the Qwen2VL visual encoder (650M) with the Llama3.2 (1
 - Chain-of-Thought (COT)
 - Retrieval-Augmented Generation (RAG)
 - Quantization
-- Formatted to meet the requirements of top-tier conference papers.
 
 After completing all the work, I will refactor the code and add detailed comments.
