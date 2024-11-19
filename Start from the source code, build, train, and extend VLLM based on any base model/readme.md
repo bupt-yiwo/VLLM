@@ -1,5 +1,4 @@
 I have combined the Qwen2VL visual encoder (650M) with the Llama3.2 (1B) language model to create a VLLM.
-
 ### Coming Soon
 
 - Pre-training
