@@ -14,7 +14,7 @@ When training using the trainer, you can select various fine-tuning methods. If 
 python find_lora_module.py
 ```
 
-For non-trainer-based training, I have only provided the code for full fine-tuning. However, to change the training module or use LoRA, you can refer to the files that use the trainer—simply copy and paste as needed.  If you want to learn more about LoRA, you can refer to the PEFT section in the project **Code implementation of various Hugging Face tools**.
+For non-trainer-based training, I have only provided the code for full fine-tuning. However, to change the training module or use LoRA, you can refer to the files that use the trainer—simply copy and paste as needed.  If you want to learn more about LoRA, you can refer to the PEFT section in the project **Code Implementation of Various Approaches for Model Training**.
 
 Then, start the training process:
 
