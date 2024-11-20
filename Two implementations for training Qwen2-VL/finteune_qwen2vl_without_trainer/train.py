@@ -44,6 +44,7 @@ parser.add_argument('--system_message', type=str, default="You are an expert in 
 
 args = parser.parse_args()
 
+os.makedirs(args.output_dir, exist_ok=True)  
 # logger
 log_path = os.path.join(args.log_dir,"log.txt")
 if not os.path.exists(log_path):
@@ -237,7 +238,6 @@ for epoch in range(num_epochs):
             running_loss = 0
         if (step+1) % save_steps == 0:  
                 save_path = os.path.join(args.output_dir, f"step-{step + 1 + epoch * len(train_dataloader)}")
-                os.makedirs(args.output_dir, exist_ok=True)  
                 save_all(model,processor,save_path)
         
 
