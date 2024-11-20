@@ -228,7 +228,7 @@ for epoch in range(num_epochs):
                 progress_bar.update(1)
 
         print(step)
-        if (step+1) % log_steps == 0:  
+        if (step + 1 + epoch * len(train_dataloader)) % log_steps == 0:  
             loss_tensor = torch.tensor([running_loss], device=accelerator.device)
             avg_running_loss = accelerator.gather(loss_tensor).mean().item()
             if accelerator.is_main_process: 
@@ -236,9 +236,10 @@ for epoch in range(num_epochs):
                 print(num_training_steps)
                 logger.info(f'Epoch {epoch + (step+1)/len(train_dataloader)}, Loss: {avg_running_loss / log_steps}')
             running_loss = 0
-        if (step+1) % save_steps == 0:  
+        if (step + 1 + epoch * len(train_dataloader)) % save_steps == 0:
+            if accelerator.is_main_process: 
                 save_path = os.path.join(args.output_dir, f"step-{step + 1 + epoch * len(train_dataloader)}")
-                save_all(model,processor,save_path)
+                model.save_pretrained(save_path)
         
 
     model.eval()
