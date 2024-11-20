@@ -10,12 +10,8 @@ model_qwen = Qwen2VLForConditionalGeneration.from_pretrained(
 
 
 import torch.nn as nn
-new_mlp = nn.Sequential(
-    nn.Linear(in_features=5120, out_features=5120, bias=True),
-    nn.GELU(approximate='none'),
-    nn.Linear(in_features=5120, out_features=2048, bias=True) 
-)
-model_qwen.visual.merger.mlp = new_mlp
+new_linear = nn.Linear(in_features=5120, out_features=2048, bias=True) 
+model_qwen.visual.merger.mlp[2] = new_linear
 
 
 import torch
@@ -77,5 +73,5 @@ with safe_open(input_file, framework="pt", device="cpu") as f:
         modified_key = key.replace('model.model.', 'model.').replace('visual.model.', 'visual.').replace('visual.model.', 'visual.').replace('visual.visual.', 'visual.')
         print(modified_key)
         data[modified_key] = f.get_tensor(key)
-    data['lm_head.weight'] = data['model.embed_tokens.weight'].clone()
+    data['lm_head.weight'] = data['model.embed_tokens.weight'].clone() # No tie_weights()!
 save_file(data, output_file, metadata=metadata)
