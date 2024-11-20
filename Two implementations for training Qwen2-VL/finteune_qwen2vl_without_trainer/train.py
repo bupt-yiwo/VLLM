@@ -237,7 +237,7 @@ for epoch in range(num_epochs):
             running_loss = 0
         if (step+1) % save_steps == 0:  
                 save_path = os.path.join(args.output_dir, f"step-{step + 1 + epoch * len(train_dataloader)}")
-                os.makedirs(save_path, exist_ok=True)  
+                os.makedirs(args.output_dir, exist_ok=True)  
                 save_all(model,processor,save_path)
         
 
