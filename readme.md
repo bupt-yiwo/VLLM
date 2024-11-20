@@ -12,7 +12,7 @@ This repository is solely for documenting my own learning journey. However, it i
 - [x] Two implementations for training Qwen2-VL
 - [x] Quality Evaluation Metrics for Text Generation
 - [ ] QWEN2-VL source code writing
-- [ ] Start from the source code, build, train, and extend VLLM based on any base model--loading.
-- [ ] Code Implementation of Various Approaches for Model Training
+- [ ] Start from the source code, build, train, and extend VLLM based on any base model--loading
+- [ ] Code Implementation of Various Approaches for Model Training--loading
 - [ ] Common Transformers Source Code Analysis
 
