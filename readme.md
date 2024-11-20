@@ -4,7 +4,7 @@ This repository is solely for documenting my own learning journey. However, it i
 
 
 
-##  List
+##  TO DO
 
 - [x] Building VLLM from scratch(paligemma)
 - [x] Medical DICOM File Cleaning Pipeline
