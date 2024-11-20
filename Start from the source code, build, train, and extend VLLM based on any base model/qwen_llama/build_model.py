@@ -12,7 +12,7 @@ model_qwen = Qwen2VLForConditionalGeneration.from_pretrained(
 import torch.nn as nn
 new_linear = nn.Linear(in_features=5120, out_features=2048, bias=True) 
 model_qwen.visual.merger.mlp[2] = new_linear
-
+model_qwen.visual.merger.mlp[2].weight.data = model_qwen.visual.merger.mlp[2].weight.to(model_qwen.visual.merger.mlp[0].weight.dtype)
 
 import torch
 from transformers import pipeline
