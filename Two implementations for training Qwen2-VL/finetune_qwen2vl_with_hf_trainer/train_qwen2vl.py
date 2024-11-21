@@ -182,8 +182,9 @@ def train():
         args.model_dir,
         torch_dtype=torch.bfloat16,
     )
-    if args.gradient_checkpointing:
-        model.enable_input_require_grads()
+    # if error, use it
+    # if args.gradient_checkpointing:
+    #     model.enable_input_require_grads()
     for name, param in model.named_parameters():
         param.requires_grad = True  
     if args.finetune_choice == "use_lora":
