@@ -46,7 +46,8 @@ parser.add_argument('--eval_data_path', type=str, default="/home/zhuyao123/SunPe
 parser.add_argument('--per_device_eval_batch_size', type=int, default=1,required=False, help='per_device_eval_batch_size')
 parser.add_argument('--evaluation_strategy', type=str, default="step",required=False, help='evaluation_strategy')
 parser.add_argument('--eval_steps', type=int, default=50,required=False, help='eval_steps')
-
+parser.add_argument('--gradient_checkpointing', type=bool, default=False, required=False, help='gradient_checkpointing')
+ 
 args = parser.parse_args()
 
 
@@ -246,6 +247,7 @@ def train():
         gradient_accumulation_steps=args.gradient_accumulation_steps,
         learning_rate=args.learning_rate,
         warmup_steps=args.warmup_steps,
+        gradient_checkpointing = args.gradient_checkpointing,
         weight_decay=0.02,
         lr_scheduler_type=args.lr_scheduler_type,
         bf16=True,
