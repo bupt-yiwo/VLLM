@@ -20,6 +20,7 @@ torchrun --nproc-per-node=2 /home/zhuyao/Sunpeng/finetune_qwen2vl/train_qwen2vl.
   --gradient_accumulation_steps 2 \
   --learning_rate 1e-5 \
   --warmup_steps 20 \
+  --gradient_checkpointing False \
   --lr_scheduler_type "constant" \
   --system_message "You are a helpful assistant."\
   --eval_data_path "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen_eval.json" \
