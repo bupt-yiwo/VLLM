@@ -182,9 +182,6 @@ def train():
         args.model_dir,
         torch_dtype=torch.bfloat16,
     )
-    # if error, use it
-    # if args.gradient_checkpointing:
-    #     model.enable_input_require_grads()
     for name, param in model.named_parameters():
         param.requires_grad = True  
     if args.finetune_choice == "use_lora":
@@ -225,7 +222,9 @@ def train():
             file.write("full_finetune_all")
     else:
         raise ValueError("you are finetuning the full model,but the args(finetune_choice) you give is wrong!")
-
+    # if error, use it
+    # if args.gradient_checkpointing:
+    #     model.enable_input_require_grads()
     processor = AutoProcessor.from_pretrained(
         args.model_dir,
         min_pixels=args.min_image_tokens * 28 * 28,
