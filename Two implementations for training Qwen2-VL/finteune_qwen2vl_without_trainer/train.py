@@ -210,54 +210,57 @@ running_loss = 0.0
 log_steps = args.log_steps
 save_steps = args.save_steps
 
+step_turn = 0
 for epoch in range(num_epochs):
     model.train()
     for step, batch in enumerate(train_dataloader):
+        step_turn+=1
         # print(len(train_dataloader))
         # batch = {k: v.to(device) for k, v in batch.items()}
         outputs = model(**batch)
         loss = outputs.loss / gradient_accumulation_steps
         accelerator.backward(loss)
         # loss.backward()
-        running_loss += loss.item() * gradient_accumulation_steps
-        if (step + 1) % gradient_accumulation_steps == 0 or (step + 1) == len(train_dataloader):
+        running_loss += loss.item()
+        update = step_turn % gradient_accumulation_steps
+        now_step = step_turn / gradient_accumulation_steps
+        if update == 0:
             optimizer.step()
             lr_scheduler.step()
             optimizer.zero_grad()
             if accelerator.is_main_process: 
                 progress_bar.update(1)
 
-        print(step)
-        if (step + 1 + epoch * len(train_dataloader)) % log_steps == 0:  
+        if now_step % log_steps == 0:  
             loss_tensor = torch.tensor([running_loss], device=accelerator.device)
             avg_running_loss = accelerator.gather(loss_tensor).mean().item()
             if accelerator.is_main_process: 
                 print(avg_running_loss)
                 print(num_training_steps)
-                logger.info(f'Epoch {epoch + (step+1)/len(train_dataloader)}, Loss: {avg_running_loss / log_steps}')
+                logger.info(f'Epoch {epoch + (step+1)/len(train_dataloader)},Step:{int(now_step)} Loss: {avg_running_loss / log_steps}')
             running_loss = 0
-        if (step + 1 + epoch * len(train_dataloader)) % save_steps == 0:
+        if now_step % save_steps == 0:
             if accelerator.is_main_process: 
-                save_path = os.path.join(args.output_dir, f"step-{step + 1 + epoch * len(train_dataloader)}")
+                save_path = os.path.join(args.output_dir, f"step-{now_step}")
                 model.save_pretrained(save_path)
         
 
-    model.eval()
-    eval_loss = 0.0 
-    num_batches = 0
-    for batch in eval_dataloader:
-        with torch.no_grad():
-            num_batches+=1
-            # print(num_batches)
-            # batch = {k: v.to(device) for k, v in batch.items()}
-            outputs = model(**batch)
-            eval_loss += outputs.loss.item()
-    eval_loss_tensor = torch.tensor([eval_loss], device=accelerator.device)
-    avg_eval_loss = accelerator.gather(eval_loss_tensor) 
-    num_batches_tensor = torch.tensor([num_batches], device=accelerator.device)
-    avg_num_batches = accelerator.gather(num_batches_tensor)
+    # model.eval()
+    # eval_loss = 0.0 
+    # num_batches = 0
+    # for batch in eval_dataloader:
+    #     with torch.no_grad():
+    #         num_batches+=1
+    #         # print(num_batches)
+    #         # batch = {k: v.to(device) for k, v in batch.items()}
+    #         outputs = model(**batch)
+    #         eval_loss += outputs.loss.item()
+    # eval_loss_tensor = torch.tensor([eval_loss], device=accelerator.device)
+    # avg_eval_loss = accelerator.gather(eval_loss_tensor) 
+    # num_batches_tensor = torch.tensor([num_batches], device=accelerator.device)
+    # avg_num_batches = accelerator.gather(num_batches_tensor)
     
-    if accelerator.is_main_process:  
-        global_avg_loss = avg_eval_loss.sum().item() / avg_num_batches.sum().item()
-        logger.info(f"Eval_Loss: {global_avg_loss}")
-    # output_dir
+    # if accelerator.is_main_process:  
+    #     global_avg_loss = avg_eval_loss.sum().item() / avg_num_batches.sum().item()
+    #     logger.info(f"Eval_Loss: {global_avg_loss}")
+    # # output_dir
