@@ -20,7 +20,7 @@ import numpy as np
 import logging
 import os
 from tqdm.auto import tqdm
-
+import math
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--model_dir', type=str, default="/home/zhuyao/Sunpeng/models/qwen_2B_instruct",required=False, help='Pretrained model directory')
@@ -191,7 +191,7 @@ eval_dataloader = DataLoader(
 # train 
 optimizer = AdamW(model.parameters(), lr=args.learning_rate)
 num_epochs = args.num_train_epochs
-num_training_steps = num_epochs * len(train_dataloader)
+num_training_steps = math.ceil(num_epochs * len(train_dataloader) /  args.gradient_accumulation_steps)
 lr_scheduler = get_scheduler(
     args.lr_scheduler_type,
     optimizer=optimizer,
@@ -202,14 +202,14 @@ lr_scheduler = get_scheduler(
 train_dataloader, eval_dataloader, model, optimizer = accelerator.prepare(
      train_dataloader, eval_dataloader, model, optimizer
  )
-
-
 gradient_accumulation_steps = args.gradient_accumulation_steps  
-progress_bar = tqdm(range(int(num_training_steps// (args.gpu_nums * gradient_accumulation_steps))))
-running_loss = 0.0
+progress_bar = tqdm(range(num_training_steps))
+
 log_steps = args.log_steps
 save_steps = args.save_steps
 
+
+running_loss = 0.0
 step_turn = 0
 for epoch in range(num_epochs):
     model.train()
@@ -241,7 +241,7 @@ for epoch in range(num_epochs):
             running_loss = 0
         if now_step % save_steps == 0:
             if accelerator.is_main_process: 
-                save_path = os.path.join(args.output_dir, f"step-{now_step}")
+                save_path = os.path.join(args.output_dir, f"step-{int(now_step)}")
                 model.save_pretrained(save_path)
         
 
