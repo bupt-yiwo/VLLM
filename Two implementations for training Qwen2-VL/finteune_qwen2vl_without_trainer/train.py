@@ -211,6 +211,10 @@ save_steps = args.save_steps
 
 running_loss = 0.0
 step_turn = 0
+"""
+The gradient accumulation, step updates, and other operations here are manually implemented by me. 
+In fact, these operations are already integrated into accelerate. You can refer to the accelerate-related sections in the Code Implementation of Various Approaches for Model Training, specifically in distributed_training.ipynb.
+"""                                                                                                                                                                
 for epoch in range(num_epochs):
     model.train()
     for step, batch in enumerate(train_dataloader):
