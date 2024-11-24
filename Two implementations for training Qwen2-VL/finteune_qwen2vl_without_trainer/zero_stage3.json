@@ -52,8 +52,7 @@
   "gradient_clipping": 1.0,
   "zero_allow_untested_optimizer": true,
   "wall_clock_breakdown": true
-}
-
+},
     "gradient_clipping": 1.0,
     "zero_allow_untested_optimizer": true,
     "wall_clock_breakdown": true
