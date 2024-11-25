@@ -191,7 +191,7 @@ eval_dataloader = DataLoader(
 # train 
 optimizer = AdamW(model.parameters(), lr=args.learning_rate)
 num_epochs = args.num_train_epochs
-num_training_steps = math.ceil(num_epochs * len(train_dataloader) /  args.gradient_accumulation_steps)
+num_training_steps = math.floor(num_epochs * len(train_dataloader) /  args.gradient_accumulation_steps)
 lr_scheduler = get_scheduler(
     args.lr_scheduler_type,
     optimizer=optimizer,
