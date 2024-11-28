@@ -5,7 +5,7 @@ I have currently combined the Qwen2VL visual encoder (650M) with the Llama3.2 (1
 - RLHF -- done
 - Downstream fine-tuning (including full fine-tuning and LoRA fine-tuning, among other methods)
 - Evaluation(benchmark) -- done
-- Web UI development
+- Web UI development -- done
 - Chain-of-Thought (COT)
 - Retrieval-Augmented Generation (RAG)
 - Quantization
