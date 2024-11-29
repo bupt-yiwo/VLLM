@@ -1,3 +1,7 @@
+## Demo
+
+![webui](Figs/webui.png)
+
 ## Tips
 
 The most important thing: Remember to modify the paths in the code to your own!
