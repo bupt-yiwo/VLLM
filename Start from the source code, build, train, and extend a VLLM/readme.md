@@ -1,6 +1,6 @@
 ## Demo
 
-![webui](Figs/webui.png)
+![webui](Figs/web.png)
 
 ## Tips
 
@@ -40,7 +40,7 @@ The most important thing: Remember to modify the paths in the code to your own!
 
 - I used [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) to compare my model (1.6B) with QWEN2-VL-2B, LLAVA-V1.5-7B, and LLAVA-V1.5-7B across 19 datasets. The results show that my model, with fewer training datas, performs nearly on par with LLAVA, surpassing it in some aspects, but lags behind the latest QWEN2-VL-2B in certain areas.
 - Simply downloading the evaluation library is not enough to evaluate my model; you need to add `qwen_llama.py` in the models directory (I've already added it) and register the model.
-
+![benchmark](Figs/benchmark.png)
 ### WEB UI
 
 - The interface is built using the gradio library.
