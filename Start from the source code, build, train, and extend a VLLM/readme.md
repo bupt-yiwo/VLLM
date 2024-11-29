@@ -50,7 +50,7 @@ The most important thing: Remember to modify the paths in the code to your own!
 
 ### WEB UI
 
-- The WEB UI is built using the gradio library.
+- The Web UI is built using the Gradio library.
 
 ### RAG
 
