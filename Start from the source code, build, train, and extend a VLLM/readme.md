@@ -12,10 +12,15 @@ The most important thing: Remember to modify the paths in the code to your own!
 
 - The training hyperparameters are the same as those used in LLAVA training.
 
+- 1 epoch
+
 ### SFT
 
 - I filtered the [LLAVA instruction fine-tuning data](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K) and kept only the data(525K) with fewer than 8 dialogue turns.
+  
 - The training hyperparameters are the same as those used in LLAVA training.
+  
+- 1 epoch
 
 ### RLHF
 
@@ -35,6 +40,8 @@ The most important thing: Remember to modify the paths in the code to your own!
   tokenizer -> tokenizer.tokenizer
   
   ```
+
+- 150 steps
 
 ### Benchmark
 
