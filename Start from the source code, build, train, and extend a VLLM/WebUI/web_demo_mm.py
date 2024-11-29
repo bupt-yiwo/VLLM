@@ -14,7 +14,7 @@ from transformers import TextIteratorStreamer
 from model.modeling_qwen_llama import LlamaForCausalLM
 from model.model_processing import LQ_Tokenizer
 
-DEFAULT_CKPT_PATH = '/home/zhuyao/Sunpeng/llava_qwen/check_point/DPO_33.8k/checkpoint-150'
+DEFAULT_CKPT_PATH = '/home/zhuyao/Sunpeng/llava_qwen/check_point/instruct_525k'
 DEFAULT_P_PATH = "/home/zhuyao/Sunpeng/models/qwen_2B_instruct"
 DEFAULT_T_PATH = '/home/zhuyao/Sunpeng/llava_qwen/tes'
 
