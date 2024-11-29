@@ -4,7 +4,7 @@ I have currently combined the Qwen2VL visual encoder (650M) with the Llama3.2 (1
 - [x] SFT
 - [x] RLHF
 - [x] Evaluation(benchmark)
-- [x] Web UI development
+- [x] Web UI
 - [x] Retrieval-Augmented Generation (RAG)
 - [x] Chain-of-Thought (COT)
 - [x] Quantization
