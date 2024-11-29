@@ -8,11 +8,11 @@ This repository is solely for documenting my own learning journey. However, it i
 
 - [x] Building VLLM from scratch(paligemma)
 - [x] Start from the source code, build, train, and extend a VLLM
+- [x] Code Implementation of Various Approaches for Model Training
+- [x] Two implementations for training Qwen2-VL
 - [x] Medical DICOM File Cleaning Pipeline
 - [x] VQA Score
-- [x] Two implementations for training Qwen2-VL
 - [x] Quality Evaluation Metrics for Text Generation
-- [x] Code Implementation of Various Approaches for Model Training
 - [ ] QWEN2-VL source code writing
 - [ ] Common Transformers Source Code Analysis
 
