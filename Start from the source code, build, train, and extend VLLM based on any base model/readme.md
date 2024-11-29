@@ -6,7 +6,7 @@ I have currently combined the Qwen2VL visual encoder (650M) with the Llama3.2 (1
 - [x] Evaluation(benchmark)
 - [x] Web UI development
 - [x] Retrieval-Augmented Generation (RAG)
-- [ ] Chain-of-Thought (COT)
-- [ ] Quantization
+- [x] Chain-of-Thought (COT)
+- [x] Quantization
 
 After completing all the work, I will refactor the code and add detailed comments.
