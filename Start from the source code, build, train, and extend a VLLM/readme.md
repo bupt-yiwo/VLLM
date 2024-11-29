@@ -47,7 +47,7 @@ The most important thing: Remember to modify the paths in the code to your own!
 
 - I used [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) to compare my model (1.6B) with QWEN2-VL-2B, LLAVA-V1.5-7B, and LLAVA-V1.5-7B across 19 datasets. The results show that my model, with fewer training datas, performs nearly on par with LLAVA, surpassing it in some aspects, but lags behind the latest QWEN2-VL-2B in certain areas.
 - Simply downloading the evaluation library is not enough to evaluate my model; you need to add `qwen_llama.py` in the models directory (I've already added it) and register the model.
-
+- The evaluation results are at the end of the README.
 ### WEB UI
 
 - The Web UI is built using the Gradio library.
@@ -61,7 +61,7 @@ The most important thing: Remember to modify the paths in the code to your own!
 
 - Since I am not deeply familiar with reinforcement learning, I directly used instruction fine-tuning from the dataset for training, and the dataset used is [LLaVA-CoT-o1-Instruct](https://huggingface.co/datasets/5CD-AI/LLaVA-CoT-o1-Instruct).
 - The model's loss converged well to 0.7 in the first epoch, and it demonstrated good reasoning ability during testing.
-- The evaluation results are at the end of the README.
+![cot](Figs/cot.png)
  
 ### Quantization
 
