@@ -1,1 +1,0 @@
-python3 -m accelerate.commands.launch   --num_processes=6   --main_process_port 29502   -m lmms_eval   --model qwen_llama   --model_args model_path="/home/zhuyao/Sunpeng/llava_qwen/check_point/DPO_5.73k/step-150"   --tasks mathvista_testmini   --batch_size 4   --log_samples   --log_samples_suffix qwen_llama_mme   --output_path ./logs/qwen_llama/mathvista_testmini/
