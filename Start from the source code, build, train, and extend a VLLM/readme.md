@@ -43,7 +43,7 @@ The most important thing: Remember to modify the paths in the code to your own!
 
 ### WEB UI
 
-- The interface is built using the gradio library.
+- The WEB UI is built using the gradio library.
 
 ### RAG
 
