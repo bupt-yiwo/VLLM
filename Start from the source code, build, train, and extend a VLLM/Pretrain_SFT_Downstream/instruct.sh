@@ -1,0 +1,21 @@
+CUDA_VISIBLE_DEVICES=4,5,6,7 accelerate launch /home/zhuyao/Sunpeng/llava_qwen/SP/Pretrain_SFT_Downstream/train_no_trainer.py \
+    --gpu_nums 4 \
+    --model_dir "/home/zhuyao/Sunpeng/llava_qwen/check_point/instruct_525k_new_3200/step-3250" \
+    --tokenizer_path "/home/zhuyao/Sunpeng/llava_qwen/tes" \
+    --processor_path "/home/zhuyao/Sunpeng/models/qwen_2B_instruct" \
+    --output_dir "/home/zhuyao/Sunpeng/llava_qwen/check_point/instruct_525k_new_3200" \
+    --min_image_tokens 4 \
+    --max_image_tokens 336 \
+    --train_data_path "/home/zhuyao/Sunpeng/llava_qwen/data/instruct/llava_v1_5_mix525k.json" \
+    --eval_data_path "/home/zhuyao/Sunpeng/finetune_qwen2vl/data/pokemen_eval.json" \
+    --num_train_epochs 1 \
+    --learning_rate 1e-5 \
+    --warmup_steps 80 \
+    --lr_scheduler_type "constant" \
+    --per_device_train_batch_size 4 \
+    --per_device_eval_batch_size 1 \
+    --gradient_accumulation_steps 8 \
+    --log_dir "/home/zhuyao/Sunpeng/llava_qwen/check_point/instruct_525k_new_3200" \
+    --log_steps 5 \
+    --save_steps 50 \
+    --system_message "You are a helpful assistant."
