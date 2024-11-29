@@ -62,7 +62,7 @@ The most important thing: Remember to modify the paths in the code to your own!
 - Since I am not deeply familiar with reinforcement learning, I directly used instruction fine-tuning from the dataset for training, and the dataset used is [LLaVA-CoT-o1-Instruct](https://huggingface.co/datasets/5CD-AI/LLaVA-CoT-o1-Instruct).
 - The model's loss converged well to 0.7 in the first epoch, and it demonstrated good reasoning ability during testing.
 
-![cot](Figs/cot.png)
+![cot](Figs/cot_result.png)
  
 ### Quantization
 
