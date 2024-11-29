@@ -14,7 +14,7 @@ The most important thing: Remember to modify the paths in the code to your own!
 
 ### SFT
 
-- I filtered the [LLAVA instruction fine-tuning data(525K)](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K) and kept only the data with fewer than 8 dialogue turns.
+- I filtered the [LLAVA instruction fine-tuning data](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K) and kept only the data with fewer than 8 dialogue turns.
 - The training hyperparameters are the same as those used in LLAVA training.
 
 ### RLHF
