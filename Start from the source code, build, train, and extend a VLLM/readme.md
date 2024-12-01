@@ -2,6 +2,14 @@
 
 ![webui](Figs/web.png)
 
+## Model Download
+
+
+ Model Descriptions | 🤗 Huggingface Hub | 
+| --- | ---: |
+| SP-MODEL | [SP-MODEL](https://huggingface.co/yiwo/SP-MODEL) |
+
+
 ## Tips
 
 The most important thing: Remember to modify the paths in the code to your own!
