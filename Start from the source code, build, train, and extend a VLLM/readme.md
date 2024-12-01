@@ -5,9 +5,9 @@
 ## Model Download
 
 
- Model Descriptions | 🤗 Huggingface Hub | 
-| --- | ---: |
-| SP-MODEL | [SP-MODEL](https://huggingface.co/yiwo/SP-MODEL) |
+| Model Descriptions | 🤗 Huggingface Hub                                |
+| ------------------ | ------------------------------------------------ |
+| SP-MODEL           | [SP-MODEL](https://huggingface.co/yiwo/SP-MODEL) |
 
 
 ## Tips
