@@ -1,0 +1,11 @@
+export NCCL_IB_DISABLE=1
+
+ifconfig
+
+export NCCL_SOCKET_IFNAME=ens1f0
+
+export NCCL_P2P_DISABLE=1
+
+export NCCL_SHM_DISABLE=0
+
+export NCCL_NET_GDR_LEVEL=0
