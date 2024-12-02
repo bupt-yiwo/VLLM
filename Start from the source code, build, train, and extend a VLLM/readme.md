@@ -16,7 +16,7 @@ The most important thing: Remember to modify the paths in the code to your own!
 
 ### Build
 
-QWEN2VL visual encoder + llama3.2-1B
+QWEN2VL visual encoder + LLAMA3.2-1B
 
 ### Pretrain
 
