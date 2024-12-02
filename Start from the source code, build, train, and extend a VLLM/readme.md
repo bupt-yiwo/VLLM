@@ -82,7 +82,7 @@ QWEN2VL visual encoder + llama3.2-1B
 
 ## Run
 
-### WEB UI
+### Build
 
 ```
 Build_model/build_processor_and_model.ipynb
