@@ -28,7 +28,7 @@ QWEN2VL visual encoder + LLAMA3.2-1B
 
 ### SFT
 
-- I filtered the [LLAVA instruction fine-tuning data](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K) and kept only the data(525K) with fewer than 8 dialogue turns.
+- I filtered the [LLaVA-Instruct-150K](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K) and kept only the data(525K) with fewer than 8 dialogue turns.
   
 - The training hyperparameters are the same as those used in LLAVA training.
   
