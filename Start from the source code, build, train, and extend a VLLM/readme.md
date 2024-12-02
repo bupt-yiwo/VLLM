@@ -14,6 +14,10 @@
 
 The most important thing: Remember to modify the paths in the code to your own!
 
+### Build
+
+QWEN2VL visual encoder + llama3.2-1B
+
 ### Pretrain
 
 - I used the alignment data from [LLAVA(595K)](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K).
@@ -78,9 +82,15 @@ The most important thing: Remember to modify the paths in the code to your own!
 
 ## Run
 
+### WEB UI
+
+```
+Build_model/build_processor_and_model.ipynb
+```
+  
 ### Pretrain
 
-```sh
+```
 sh Pretrain_SFT_Downstream/pretrain.sh
 ```
 
